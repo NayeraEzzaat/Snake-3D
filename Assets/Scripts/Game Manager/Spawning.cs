@@ -37,7 +37,7 @@ public class Spawning : MonoBehaviour {
     }
     private void Update() {
         if (snake.GetComponent<Snake>().isMoving && !_methodCall) {
-            StartCoroutine(SpawnPickup(5));
+            StartCoroutine(SpawnPickup(3));
             _methodCall = true;
         }
     }
