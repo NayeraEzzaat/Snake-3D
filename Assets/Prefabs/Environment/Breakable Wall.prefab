@@ -22,7 +22,7 @@ GameObject:
   - component: {fileID: 33987935602377128}
   - component: {fileID: 65526900333431320}
   - component: {fileID: 23084878251117238}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Breakable Wall
   m_TagString: Breakable Wall
   m_Icon: {fileID: 0}
@@ -36,7 +36,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1873000357832420}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -33.36, y: 0.5, z: 4.57}
+  m_LocalPosition: {x: -4.755001, y: 0.024997503, z: 4.57}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}

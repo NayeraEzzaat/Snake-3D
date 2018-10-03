@@ -16,9 +16,9 @@ TagManager:
   - Red Food
   - Orange Food
   - Yellow Food
-  - Pyrple Food
   - Blue Food
   - Black Food
+  - Purple Food
   layers:
   - Default
   - TransparentFX
@@ -28,10 +28,10 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
-  - 
-  - 
+  - Snake Body
+  - Colliders
+  - Snake Head
+  - Snake Main Head
   - 
   - 
   - 
