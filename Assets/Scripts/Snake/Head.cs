@@ -23,7 +23,7 @@ public class Head : MonoBehaviour {
             }
         }
         else if (other.gameObject.CompareTag("Breakable Wall")) {
-            GetComponentInParent<Move>().Hit(3);
+            GetComponentInParent<Move>().Hit(6);
             Destroy(other.gameObject);
             if (_isYellow) {
                 GetComponentInChildren<Shoot>().canShoot = false;
@@ -40,7 +40,7 @@ public class Head : MonoBehaviour {
             }
         }
         else if (other.gameObject.CompareTag("Enemy")) {
-            GetComponentInParent<Move>().Hit(3);
+            GetComponentInParent<Move>().Hit(4);
             Destroy(other.gameObject);
             if (_isYellow) {
                 GetComponentInChildren<Shoot>().canShoot = false;
@@ -58,7 +58,7 @@ public class Head : MonoBehaviour {
         } 
         else if (other.gameObject.CompareTag("Body") || other.gameObject.CompareTag("Tail")) {
             if (_headCollide) {
-                GetComponentInParent<Move>().Hit(1);
+                GetComponentInParent<Move>().Hit(8);
                 if (_isYellow) {
                     GetComponentInChildren<Shoot>().canShoot = false;
                     _isYellow = false;
